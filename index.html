@@ -3,13 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <title>My Capture Project</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background-color: #f4f1ea;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      color: #2b2b2b;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .entry {
+      margin-bottom: 100px;
+    }
+
+    .entry img {
+      width: 100%;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+    }
+
+    .note {
+      background-color: #fff6b7;
+      padding: 15px 20px;
+      max-width: 320px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+      font-family: 'Comic Sans MS', 'Marker Felt', sans-serif;
+      margin: 20px auto;
+      transform: rotate(-1.5deg);
+    }
+
+    .note.right {
+      margin-left: auto;
+      margin-right: 0;
+      transform: rotate(1.5deg);
+    }
+  </style>
 </head>
 <body>
 
   <h1>The Capture Project</h1>
-  <p>A growing collection of screenshots and reflections.</p>
+  <p style="text-align:center;">A growing collection of screenshots and reflections.</p>
 
-  <!-- New entries will go here, one at a time, each week -->
+  <!-- ===== ENTRY TEMPLATE — copy this whole block for each new week ===== -->
+  <div class="entry">
+    <div class="note">
+      This is my first annotation. I'll replace this text each week with my real note.
+    </div>
+    <img src="GLP Screenshot - #1.png" alt="Description of screenshot">
+  </div>
+  <!-- ===== END ENTRY TEMPLATE ===== -->
 
 </body>
 </html>
